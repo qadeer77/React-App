@@ -1,17 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import './componenet'
 
 const name = "hello world"
-const obj = {
-  name: "hello world",
-  fatehr: "data",
-}
 
 function App() {
   return (
     <div>
       <h1>{name}</h1>
-  
+      <componenet/>
     </div>
   );
 }
