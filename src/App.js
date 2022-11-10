@@ -1,13 +1,17 @@
-import './App.css';
-import './componenet'
+import "./App.css";
 
-const name = "hello world"
+const name = "hello world";
 
 function App() {
+  const object = {
+    name: "hello",
+    fatherName: "world",
+  };
   return (
     <div>
       <h1>{name}</h1>
-      <componenet/>
+      <h1>{object.name}</h1>
+      <h1>{object.fatherName}</h1>
     </div>
   );
 }
