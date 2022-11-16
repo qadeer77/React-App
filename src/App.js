@@ -1,4 +1,8 @@
 import "./App.css";
+import Object from "./component/Obj";
+import { Button } from "./component/button";
+import Data from "./component/pkjdata";
+import Data2 from "./component/data2";
 
 const name = "hello world";
 
@@ -42,6 +46,10 @@ function App() {
       <p>{complex[1].company}</p>
       <p>{complex[1].jobs[0]}</p>
       <p>{complex[1].jobs[1]}</p>
+      <Object/>
+      <Button/>
+      <Data/>
+      <Data2/>
     </div>
   );
 }

@@ -1,10 +1,9 @@
 import React from 'react'
 
-export default function Object() {
+export function Button() {
   return (
     <div>
-      Hello World
+        <button>click</button>
     </div>
   )
 }
-
